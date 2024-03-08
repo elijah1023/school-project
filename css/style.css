@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+
+.heading {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aquamarine;
+}
+
+.header-links {
+  width: 100%;
+  height: 13vh;
+  display: grid;
+  place-items: center;
+  top: 0;
+  position: sticky;
+  background-color: aquamarine;
+  z-index: 100;
+}
+
+
+.header-links ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.header-links ul li {
+  list-style: none;
+  margin-right: 15px;
+}
+
+.header-links ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.first-content {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.301), rgba(0, 0, 0, 0.301), rgba(0,0,0,0.301), rgba(0, 0, 0, 0.301)), url('../images/background\ image.jpg');
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+  display: grid;
+  place-items: center;
+}
+
+.first-content .mid-container {
+  position: relative;
+  width: 70%;
+  height: 50vh;
+  margin-top: 60px;
+}
+
+.mid-container .happy {
+  width: 100%;
+  height: 8vh;
+  display: grid;
+  place-items: center;
+}
+
+.happy h3 {
+  position: relative;
+  color: white;
+}
+
+.happy h3::after {
+  position: absolute;
+  content: " ";
+  width: 50%;
+  height: 2px;
+  background-color: rgb(255, 255, 255);
+  top: -5px;
+  left: 30%;
+  border-radius: 10px;
+}
+
+.welcoming {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.welcoming h2 {
+  letter-spacing: 2px;
+  color: white;
+}
+
+.hello p {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.welcome-txt {
+  width: 100%;
+  height: 20vh;
+  margin-top: 2px;
+  padding: 15px;
+  display: grid;
+  place-items: center;
+}
+
+.welcome-txt p {
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.read-more {
+  width: 100%;
+  height: 5vh;
+  margin-top: 6px;
+  display: grid;
+  place-items: center;
+}
+
+.read-more a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  width: 140px;
+  height: 5vh;
+  background-color: dodgerblue;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+}
+
+.read-more a:hover {
+  background-color: white;
+  color: dodgerblue;
+  transition: all 0.57s ease-in-out;
+}
+
+/* .footer{
+  margin-top: 5rem;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+
+  
+}
+
+.footer-last{
+  height: 90px;
+  background: #1F2937;
+} */
+
+#footer{
+  /* margin-top: 5rem; */
+  text-align: center;
+  color: white;
+  font-size: larger;
+}
+
+.last{
+  height: 90px;
+  background: #1F2937;
+  font-size: larger;
+  color: white;
+  text-align: center;
+
+}
